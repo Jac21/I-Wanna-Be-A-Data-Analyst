@@ -1,0 +1,28 @@
+/* user defined styles for landing page*/
+/* http://colorhunt.co/c/2829 */
+
+@-webkit-keyframes colorchange {
+	0%{background-position: 94% 0%;}
+	50%{background-position:7% 100%}
+	100%{background-position:94% 0%;}
+}
+
+@keyframes colorchange {
+	0%{background-position: 94% 0%;}
+	50%{background-position:7% 100%}
+	100%{background-position:94% 0%;}
+}
+
+body {
+	background: -webkit-linear-gradient(45deg, #EB2A5D, #FFB44B, #EB2A5D);
+	background: linear-gradient(45deg, #EB2A5D, #FFB44B, #EB2A5D);
+	background-size: 400% 400%;
+	-webkit-animation: colorchange 15s ease infinite;
+	animation: colorchange 15s ease infinite;
+}
+
+.valign-helper {
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+}
