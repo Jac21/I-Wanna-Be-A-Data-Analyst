@@ -1,5 +1,5 @@
 /* user defined styles for landing page*/
-/* http://colorhunt.co/c/2829 */
+/* http://colorhunt.co/c/2829 
 
 @-webkit-keyframes colorchange {
 	0%{background-position: 94% 0%;}
@@ -20,9 +20,22 @@ body {
 	-webkit-animation: colorchange 15s ease infinite;
 	animation: colorchange 15s ease infinite;
 }
+*/
 
-.valign-helper {
-	display: block;
-	margin: auto;
-	margin-top: 100px;
+body {
+	background: #EB2A5D;
+}
+
+h1, h2 {
+	color: #FFB44B;
+}
+
+h5, label {
+	color: white;
+}
+
+[type="checkbox"].filled-in:checked+label:after {
+	border: 2px solid #FF6F41;
+	background-color: #FF6F41;
+
 }
