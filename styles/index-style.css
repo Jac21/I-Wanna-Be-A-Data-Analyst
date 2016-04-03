@@ -30,8 +30,20 @@ h1, h2 {
 	color: #FFB44B;
 }
 
-h5, label {
+h5, label, li {
 	color: white;
+}
+
+ul, li {
+	list-style-type: square !important;
+}
+
+ul {
+	padding-left: 5em;
+}
+
+a {
+	color: #FFEB7D;
 }
 
 [type="checkbox"].filled-in:checked+label:after {
