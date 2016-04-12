@@ -49,5 +49,4 @@ a {
 [type="checkbox"].filled-in:checked+label:after {
 	border: 2px solid #FF6F41;
 	background-color: #FF6F41;
-
 }
